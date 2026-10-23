@@ -24,6 +24,6 @@ cargo run
 cargo check
 cargo build --release
 ```
-```cargo build```, which puts the executable ```[project_name].exe``` file in the *target/debug* directory, goes with ```./target/debug/[project_name]``` to build and execute the program. ```Cargo check``` is faster than building and doesn't give an executable.```cargo run``` does both. ```cargo build --release```, which puts the executable in *target/release* instead of *target/debug*, compiles the project with **optimizations**. Intending for real use instead of program testing/frequent rebuilding.
+```cargo build```, which puts the executable ```[project_name].exe``` file in the *target/debug* directory, goes with ```./target/debug/[project_name]``` to build and execute the program. ```cargo run``` does both. ```Cargo check``` is faster than building and doesn't give an executable. ```cargo build --release```, which puts the executable in *target/release* instead of *target/debug*, compiles the project with **optimizations**. Intending for real use instead of program testing/frequent rebuilding.
 </br>
 It is easier to work with ```cargo``` as the project become more intricate. :package:
